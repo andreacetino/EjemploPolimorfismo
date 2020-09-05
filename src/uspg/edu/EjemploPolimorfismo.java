@@ -15,8 +15,10 @@ public class EjemploPolimorfismo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Gallina gallina = Gallina("Plumas", "omnivora",4);
-        Serpiente serpiente = Serpiente("Luci","Carnivoro", 6);
+        
+        Gallina gallina =  new Gallina("Plumas", "omnivora",4);
+        
+        Serpiente serpiente = new Serpiente("Luci","Carnivoro", 6);
         
         gallina.Alimentarse();
         serpiente.Alimentarse();
